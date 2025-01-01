@@ -244,3 +244,33 @@ console.log(maxCharacter("javascript") === "a"); // true
  * * Because the character "a" is the most common character in the string "javascript".
  * a = 2 That is why the function returns "a" or true, it is the most common character in the string!!
  */
+// SOLUTION 2
+console.log(" Task 5: Solution 2");
+const maxCharacterX = (str) => {
+  const charCount = {};
+  for (let char of str) {
+    charCount[char] = (charCount[char] || 0) + 1;
+  }
+
+  let maxChar = ""; // Initialize the maxChar variable to an empty string.
+  let maxCount = 0; // Initialize the maxCount variable to 0.
+
+  for (let char in charCount) {
+    if (charCount[char] > maxCount) {
+      maxChar = char;
+      maxCount = charCount[char];
+    }
+  }
+
+  return maxChar;
+};
+
+console.log(maxCharacterX("javascript") === "a"); // true
+
+// * Not much difference between the two solutions, just an arrow function, written differently!
+
+// // Return the character that is most common in a string
+// // ex:
+// maxCharacter('javascript') == 'a';
+
+console.log("\n-------------------\n");
