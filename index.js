@@ -1,6 +1,7 @@
+// # Algorithm Practice
+
 // ### CHALLENGE 1: REVERSE A STRING
-// // Return a string in reverse
-// //  ex:
+
 // reverseString('hello') === 'olleh';
 console.log("Task 1: Reverse a String");
 
@@ -42,10 +43,10 @@ console.log("hello".split("").reverse().join("") === "olleh");
 console.log("hello".split("").reverse().join(""));
 
 console.log("\n-------------------\n");
+
 console.log("Task 2: Palindrome");
 // #### CHALLENGE 2: VALIDATE A PALINDROME
-// // Return true if palindrome and false if not
-// // ex:
+
 // isPalindrome('racecar') === true;
 // isPalindrome('hello') == false;
 // * Palindrome is a word, phrase, number, or other sequence of characters that reads the same forward and backward.
@@ -120,6 +121,7 @@ console.log(isPalindromeX("racecar")); // true
 console.log(isPalindromeX("hello")); // false
 
 console.log("\n-------------------\n");
+
 console.log("Task 3: Reverse an Integer");
 // ### CHALLENGE 3: REVERSE AN INTEGER
 
@@ -209,6 +211,7 @@ console.log(
 );
 console.log("\n-------------------\n");
 // capitalizeLetters('i love javascript') === 'I Love Javascript';
+
 console.log("Task 5: Max Character");
 // ### CHALLENGE 5: MAX CHARACTER
 console.log(" Task 5: Solution 1");
@@ -274,6 +277,7 @@ console.log(maxCharacterX("javascript") === "a"); // true
 // maxCharacter('javascript') == 'a';
 
 console.log("\n-------------------\n");
+
 console.log("Task 6: FizzBuzz");
 // ### CHALLENGE 6: FIZZBUZZ
 // Write a program that prints all the numbers from 1 to 100. For multiples of 3, instead of the number, print "Fizz", for multiples of 5 print "Buzz". For numbers which are multiples of both 3 and 5, print "FizzBuzz".
